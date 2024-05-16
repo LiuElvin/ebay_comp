@@ -1,4 +1,4 @@
-# eBay 2023 University Machine Learning Competition
+# [eBay 2023 University Machine Learning Competition](https://eval.ai/web/challenges/challenge-page/2014/overview)
 
 - The annual competition asks students to dream up innovative solutions to real-world ecommerce problems in the space of Machine Learning on an e-commerce dataset.
 
