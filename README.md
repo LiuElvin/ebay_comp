@@ -16,7 +16,7 @@
 
 - Our team "jookisthebest" placed 12th out of 887 teams.
 
-- The model trains a token classification model using Hugging Face's Transformers library and logs the training process with weights & biases. Here's a summary of what the code does:
+- The model trains a token classification model using Hugging Face's Transformers library. Here's a more in-depth summary of what the code does:
 
 1. The datasets library is used to load and handle the dataset.
 
