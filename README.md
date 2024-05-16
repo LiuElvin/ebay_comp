@@ -16,6 +16,12 @@
 
 - Our team "jookisthebest" placed 12th out of 887 teams.
 
+- Incorporated Facebook's RoBERTa model to tokenize German.
+
+- Includes some manual pre-processing so symbols can be understood.
+
+- The original scripts are stored elsewhere for accessability and privacy reasons (HuggingFace and Wandb logins).
+
 - The model trains a token classification model using Hugging Face's Transformers library. Here's a more in-depth summary of what the code does:
 
 1. The datasets library is used to load and handle the dataset.
@@ -35,12 +41,6 @@
 6. Training and evaluation data are loaded and processed using PyTorch's DataLoader.
 
 7. Experiment logging is performed using Weights & Biases (wandb).
-
-- Incorporated Facebook's RoBERTa model to tokenize German.
-
-- Includes some manual pre-processing so symbols can be understood.
-
-- The original scripts are stored elsewhere for accessability and privacy reasons (HuggingFace and Wandb logins).
 
 # Miscellaneous Information
 
