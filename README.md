@@ -2,6 +2,8 @@
 
 - The annual competition asks students to dream up innovative solutions to real-world ecommerce problems in the space of Machine Learning on an e-commerce dataset.
 
+- My teammate James and I decided to go into this mostly blind...
+
 # General Information
 
 - Build a model that can accurately extract and label the named entities in the dataset of item titles on eBay. Named Entities are the semantic strings/words/phrases that refer to people, brands, organizations, locations, styles, materials, patterns, product names, units of measure, clothing sizes, etc.
