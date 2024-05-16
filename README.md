@@ -12,6 +12,38 @@
 
 - Performance of the model for each aspect name is graded using weighted precision, recall and f1-score. The aspects will be weighted by their count in the quiz or test dataset. The final precision, recall and the final combined f1-score are calculated by adding the individual weighted aspect name f1-scores.
 
+# The Model
+
+- The code trains a token classification model using Hugging Face's Transformers library and logs the training process with weights & biases. Here's a summary of what the code does:
+
+1. The datasets library is used to load and handle the dataset.
+
+2. Hugging Face's transformers library is utilized to load a pre-trained token classification model.
+
+3. The AutoTokenizer class from transformers is employed to tokenize the dataset.
+
+3. The model is trained using PyTorch.
+- PyTorch's torch library is used for neural network operations.
+- The training loop is implemented with custom optimization strategies using AdamW optimizer and learning rate schedulers (get_cosine_with_hard_restarts_schedule_with_warmup).
+- Training progress is logged using Weights & Biases (wandb).
+- Model performance metrics are computed during training and evaluation.
+
+4. Model performance metrics like precision, recall, F1-score, and accuracy are computed during training and evaluation.
+- Evaluation metrics are computed using the seqeval library.
+
+5. Training and evaluation data are loaded and processed using PyTorch's DataLoader.
+- Data collation and formatting are done with DataCollatorForTokenClassification.
+
+6. Logging:
+- Experiment logging is performed using Weights & Biases (wandb).
+Both the training process and the model's performance metrics are logged.
+
+- Incorporated Facebook's RoBERTa model to tokenize German.
+
+- Includes some manual pre-processing so symbols can be understood.
+
+- The original scripts are stored elsewhere for accessability and privacy reasons (HuggingFace and Wandb logins).
+
 # Miscellaneous Information
 
 1. Named entity recognition (NER) is a fundamental task in Natural Language Processing (NLP) and one of the first stages in many language understanding tasks. It has drawn research attention for a few decades, and its importance has been well recognized in both academia and industry.
@@ -42,8 +74,6 @@ The 10 million unlabeled title set and the training set is intended for particip
 - Also set up our cloud services for gpu training.
 
 # Learning Outcomes
-
-- Placed 12th out of 887 teams and 1439 students
 
 - Essentially everything was new here. I initially wasn't that familiar with ML at all, from general concepts to coding in the Python packages given.
 
