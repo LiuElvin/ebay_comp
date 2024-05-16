@@ -4,6 +4,22 @@
 
 - My teammate James and I decided to go into this mostly blind...
 
+.pull-left[
+
+<p align="center">
+<img src="./img/pfp.png" width="400"/>
+</p>
+
+]
+
+.pull-right[
+
+<p align="center">
+<img src="./img/jook.png" width="400"/>
+</p>
+
+]
+
 # General Information
 
 - Build a model that can accurately extract and label the named entities in the dataset of item titles on eBay. Named Entities are the semantic strings/words/phrases that refer to people, brands, organizations, locations, styles, materials, patterns, product names, units of measure, clothing sizes, etc.
