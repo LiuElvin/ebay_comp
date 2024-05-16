@@ -2,13 +2,21 @@
 
 - The annual competition asks students to dream up innovative solutions to real-world ecommerce problems in the space of Machine Learning on an e-commerce dataset.
 
-# The Challenge
+# General Information
 
-Named entity recognition (NER) is a fundamental task in Natural Language Processing (NLP) and one of the first stages in many language understanding tasks. It has drawn research attention for a few decades, and its importance has been well recognized in both academia and industry.
+- Build a model that can accurately extract and label the named entities in the dataset of item titles on eBay. Named Entities are the semantic strings/words/phrases that refer to people, brands, organizations, locations, styles, materials, patterns, product names, units of measure, clothing sizes, etc.
 
-While NER is applied in many different settings, for this challenge, we will only be using eBay listing titles for NER. A few examples of NER labeling of listing titles are shown below (these examples are in English to illustrate the concept, the challenge data will have German language listing titles).
+- Named Entity Recognition (NER) is the machine learning process of automatic labeling and extracting important named entities in a text that carry a particular meaning. In e-commerce, NER is used to process listing or product titles and descriptions, queries, and reviews, or wherever extraction of important data from raw text is desired.
 
-The extracted entities are also called aspects, and an aspect consists of the aspect name (“Brand name” for the first aspect in the last example above) and the aspect value (“NYX” for the same aspect in the same example above). The objective of this challenge then is to extract and label the aspects in the dataset of item titles listed on eBay. Not all titles have all aspects, and figuring out which aspect is present for a given title is part of the challenge.
+- The data is from listings on eBay’s German site.
+
+- Performance of the model for each aspect name is graded using weighted precision, recall and f1-score. The aspects will be weighted by their count in the quiz or test dataset. The final precision, recall and the final combined f1-score are calculated by adding the individual weighted aspect name f1-scores.
+
+# Miscellaneous Information
+
+1. Named entity recognition (NER) is a fundamental task in Natural Language Processing (NLP) and one of the first stages in many language understanding tasks. It has drawn research attention for a few decades, and its importance has been well recognized in both academia and industry.
+
+3. The extracted entities are also called aspects, and an aspect consists of the aspect name (“Brand name” for the first aspect in the last example above) and the aspect value (“NYX” for the same aspect in the same example above). The objective of this challenge then is to extract and label the aspects in the dataset of item titles listed on eBay. Not all titles have all aspects, and figuring out which aspect is present for a given title is part of the challenge.
 
 # Data
 
@@ -25,10 +33,23 @@ The 10 million unlabeled title set and the training set is intended for particip
 
 # Contributions
 
-- My teammates James Ngai did most of the coding.
+- My teammate, James Ngai, did most of the coding portions for PyTorch and Wandb.
 
-- I ended up testing the models and hyperparameters, looking at graphs of loss.
+- We were both novices at ML theory, so most of my work was just experimentation with whatever features HuggingFace could provide for Neural Networks.
+
+- I ended up testing the models and modifying hyperparameters based off graphs provided in Wandb.
+
+- Also set up our cloud services for gpu training.
 
 # Learning Outcomes
 
 - Placed 12th out of 887 teams and 1439 students
+
+- Essentially everything was new here. I initially wasn't that familiar with ML at all, from general concepts to coding in the Python packages given.
+
+- Increased familiarity with Neural Networks and their hyperparameters.
+
+- Increased familiarity with HuggingFace, PyTorch, and Wandb.
+  - Particularly HuggingFace, as the API was something entirely foreign to me beforehand.
+
+- Use of Google Cloud and AWS for model training.
