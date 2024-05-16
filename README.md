@@ -4,21 +4,10 @@
 
 - My teammate James and I decided to go into this mostly blind...
 
-.pull-left[
-
-<p align="center">
-<img src="./img/pfp.png" width="400"/>
+<p float="left">
+  <img src="./img/pfp.png" width="400"/>
+  <img src="./img/jook.png" width="400"/>
 </p>
-
-]
-
-.pull-right[
-
-<p align="center">
-<img src="./img/jook.png" width="400"/>
-</p>
-
-]
 
 # General Information
 
