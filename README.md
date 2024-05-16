@@ -5,8 +5,8 @@
 - My teammate James and I decided to go into this mostly blind...
 
 <p float="left">
-  <img src="./img/pfp.png" heigh="400"/>
-  <img src="./img/jook.png" height="400"/>
+  <img src="./img/pfp.png" heigh="200"/>
+  <img src="./img/jook.png" height="200"/>
 </p>
 
 # General Information
