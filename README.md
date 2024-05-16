@@ -22,17 +22,17 @@
 
 3. The AutoTokenizer class from transformers is employed to tokenize the dataset.
 
-3. The model is trained using PyTorch.
+4. The model is trained using PyTorch.
   - PyTorch's torch library is used for neural network operations.
   - The training loop is implemented with custom optimization strategies using AdamW optimizer and learning rate schedulers.
   - Training progress is logged using weights & biases (wandb).
 
-4. Model performance metrics like precision, recall, F1-score, and accuracy are computed during training and evaluation.
+5. Model performance metrics like precision, recall, F1-score, and accuracy are computed during training and evaluation.
   - Evaluation metrics are computed using the seqeval library.
 
-5. Training and evaluation data are loaded and processed using PyTorch's DataLoader.
+6. Training and evaluation data are loaded and processed using PyTorch's DataLoader.
 
-6. Experiment logging is performed using Weights & Biases (wandb).
+7. Experiment logging is performed using Weights & Biases (wandb).
 
 - Incorporated Facebook's RoBERTa model to tokenize German.
 
