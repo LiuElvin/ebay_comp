@@ -5,7 +5,7 @@
 - My teammate James and I decided to go into this mostly blind...
 
 <p float="left">
-  <img src="./img/pfp.png" width="400"/>
+  <img src="./img/pfp.png" width="600"/>
   <img src="./img/jook.png" width="400"/>
 </p>
 
