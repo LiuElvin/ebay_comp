@@ -24,7 +24,7 @@
 - Our team `jookisthebest` placed 12th out of 887 teams.
 
 <p align="center">
-<img src="./img/rankings.png" width="1000"/>
+<img src="./img/rankings.png" width="900"/>
 </p>
 
 - Incorporated Facebook's RoBERTa model to tokenize German.
